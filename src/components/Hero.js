@@ -13,7 +13,7 @@ import jsLogo from "../Images/js.png";
 
 const Hero = () => {
   return (
-    <section className="text-gray-500">
+    <section>
       <div className="container mx-auto flex px-5 sm:py-12 items-center justify-center flex-col">
         <img
           className="lg:w-2/6 md:w-3/6 sm:w-3/6 w-4/6 object-cover object-center mb-2 sm:mb-8 z-50"

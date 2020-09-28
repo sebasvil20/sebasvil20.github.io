@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Certificaciones from "./components/Certificaciones";
+import Footer from "./components/Footer";
 import Particles from "react-particles-js";
 
 // href="!#"
@@ -66,6 +67,7 @@ function App() {
         <Header />
         <Hero />
         <Certificaciones />
+        <Footer />
       </div>
     </section>
   );
