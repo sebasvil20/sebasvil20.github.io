@@ -1,13 +1,36 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#animacionFlecha {
+  animation: yourAnimation 1.5s linear 0s infinite normal none;
+}
+
+@keyframes yourAnimation {
+  0.0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+  50.0% {
+    transform: translate(0px, 50%);
+  }
+}
+.particulas {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 0 !important;
 }
