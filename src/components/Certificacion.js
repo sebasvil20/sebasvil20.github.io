@@ -16,7 +16,7 @@ const Certificacion = ({ titulo, subtitulo, diploma, link }) => {
           <h1 className="font-nunito text-lg font-medium text-blackchocolate mb-3">
             {titulo}
           </h1>
-          <a href={link}>
+          <a href={link} target="_blank" rel="noopener noreferrer">
             <button className="bg-white text-blackchocolate font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-xl py-2 px-6 inline-flex items-center transition duration-100 ease-in-out">
               <span className="mr-2">Ver certificacion</span>
               <svg
