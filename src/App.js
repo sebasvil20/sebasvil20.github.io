@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Certificaciones from "./components/Certificaciones";
+import ListaCertificaciones from "./components/ListaCertificaciones";
 import Footer from "./components/Footer";
 import Particles from "react-particles-js";
 
@@ -66,7 +66,7 @@ function App() {
       <div className="container mx-auto">
         <Header />
         <Hero />
-        <Certificaciones />
+        <ListaCertificaciones />
         <Footer />
       </div>
     </section>
