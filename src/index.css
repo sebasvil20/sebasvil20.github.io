@@ -35,11 +35,17 @@ code {
 }
 
 .imagen-tecnologias {
-  width: 64px !important;
+  width: 32px !important;
+}
+@media (min-width: 640px) {
+  .imagen-tecnologias {
+    width: 64px !important;
+  }
 }
 
 .diplomas {
   height: 270px !important;
+  min-width: 360px !important;
 }
 
 .zman {
