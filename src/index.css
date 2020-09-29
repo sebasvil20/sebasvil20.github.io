@@ -33,3 +33,15 @@ code {
   position: fixed;
   z-index: 0 !important;
 }
+
+.imagen-tecnologias {
+  width: 64px !important;
+}
+
+.diplomas {
+  height: 270px !important;
+}
+
+.zman {
+  z-index: 99 !important;
+}

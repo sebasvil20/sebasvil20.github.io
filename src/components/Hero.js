@@ -1,15 +1,15 @@
 import React from "react";
 import ListaLogos from "./ListaLogos";
-import githubLogo from "../Images/GitHub.png";
+import githubLogo from "../Images/github72.ico";
 import fotoPersonal from "../Images/Foto-personal-Circle.png";
-import reactlogo from "../Images/reactw.png";
-import nodejsLogo from "../Images/NodeJs.png";
+import reactlogo from "../Images/reactjs.png";
+import nodejsLogo from "../Images/nodejs.png";
 import pythonLogo from "../Images/python.png";
-import htmlLogo from "../Images/html.png";
+import htmlLogo from "../Images/html592.ico";
 import mysqlLogo from "../Images/mysql.png";
 import gitLogo from "../Images/git.png";
-import cssLogo from "../Images/css.png";
-import jsLogo from "../Images/js.png";
+import cssLogo from "../Images/css396.ico";
+import jsLogo from "../Images/js96.ico";
 
 const Hero = () => {
   return (
