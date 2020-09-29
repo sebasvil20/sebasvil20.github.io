@@ -42,6 +42,14 @@ code {
     width: 64px !important;
   }
 }
+@media (max-width: 670px) {
+  .diplomas {
+    max-width: 360px !important;
+  }
+  * {
+    overflow-x: hidden;
+  }
+}
 
 .diplomas {
   height: 280px !important;
