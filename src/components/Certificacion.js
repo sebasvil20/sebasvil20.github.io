@@ -2,14 +2,14 @@ import React from "react";
 
 const Certificacion = ({ titulo, subtitulo, diploma, link }) => {
   return (
-    <div className="lg:w-1/3 sm:w-1/2 p-4 diplomas mb-4">
+    <div className="lg:w-1/3 sm:w-1/2 m-2 diplomas mb-4 shadow-xl">
       <div className="flex relative">
         <img
           alt="gallery"
-          className="absolute inset-0 w-full h-full object-cover object-center diplomas"
+          className="absolute inset-0 w-full h-full object-cover object-center diplomas shadow-xl"
           src={diploma}
         />
-        <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition delay-75 duration-100 ease diplomas flex-col content-center items-center">
+        <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition delay-75 duration-100 ease diplomas">
           <h2 className="tracking-widest text-sm mt-6 font-nunito font-light text-royalbluedark mb-1">
             {subtitulo}
           </h2>
