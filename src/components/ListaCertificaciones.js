@@ -2,20 +2,19 @@ import React, { useState } from "react";
 import Certificacion from "./Certificacion";
 
 const ListaCertificaciones = () => {
-  const [mas, guardarMas] = useState(1);
-  const [diplomas, guardarDiplomas] = useState([
+  const arrdiplomas = [
     {
       id: 0,
       titulo: "Desarrollador Front End",
       subtitulo: "Capacítate para el empleo",
-      diploma: "https://i.ibb.co/LShtTS1/front-end.png",
-      link: "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=6726",
+      diploma: "https://i.ibb.co/LZqGYTD/sv-desarrolladorfrontend-cpe.jpg",
+      link: "https://capacitateparaelempleo.org/verifica/4mv7o0tbb/",
     },
     {
       id: 1,
       titulo: "Desarrollo Web Online",
       subtitulo: "Platzi",
-      diploma: "https://i.ibb.co/ZhX30Pk/webdevelopment.png",
+      diploma: "https://i.ibb.co/854ztyh/sv-desarrolloweb-platzi.jpg",
       link:
         "https://platzi.com/@Sebastian_Villegas_/curso/1350-html5-css3/diploma/detalle/",
     },
@@ -23,7 +22,7 @@ const ListaCertificaciones = () => {
       id: 2,
       titulo: "Bootstrap",
       subtitulo: "Platzi",
-      diploma: "https://i.ibb.co/JHdqrmc/bootstrap.png",
+      diploma: "https://i.ibb.co/k32qn8C/sv-bootstrap-platzi.jpg",
       link:
         "https://platzi.com/@Sebastian_Villegas_/curso/1331-bootstrap/diploma/detalle/",
     },
@@ -31,198 +30,98 @@ const ListaCertificaciones = () => {
       id: 3,
       titulo: "Php course",
       subtitulo: "Solo Learn",
-      diploma: "https://i.ibb.co/zP3693y/php.jpg",
+      diploma: "https://i.ibb.co/j45JWWk/sv-php-sololearn.jpg",
       link: "https://www.sololearn.com/Profile/11431813/PHP",
     },
-  ]);
+    {
+      id: 4,
+      titulo: "Python",
+      subtitulo: "Platzi",
+      diploma: "https://i.ibb.co/StRrxBy/sv-python-platzi.jpg",
+      link:
+        "https://platzi.com/@Sebastian_Villegas_/curso/1104-python-2017/diploma/detalle/",
+    },
+    {
+      id: 5,
+      titulo: "Algoritmos con C",
+      subtitulo: "Platzi",
+      diploma: "https://i.ibb.co/QjTF1PF/sv-algoritmosc-platzi.jpg",
+      link:
+        "https://platzi.com/@Sebastian_Villegas_/curso/1189-algoritmos-2017/diploma/detalle/",
+    },
+    {
+      id: 6,
+      titulo: "Seguridad Informática",
+      subtitulo: "Platzi",
+      diploma: "https://i.ibb.co/TvtDWxW/sv-seguridad-platzi.jpg",
+      link:
+        "https://platzi.com/@Sebastian_Villegas_/curso/1081-seguridad-informatica-2017/diploma/detalle/",
+    },
+    {
+      id: 7,
+      titulo: "Terminal y linea de comandos",
+      subtitulo: "Platzi",
+      diploma: "https://i.ibb.co/ss2GKzP/sv-terminal-platzi.jpg",
+      link:
+        "https://platzi.com/@Sebastian_Villegas_/curso/1276-terminal/diploma/detalle/",
+    },
+    {
+      id: 8,
+      titulo: "Ruta de aprendizaje: BlocKChain Y Criptomonedas",
+      subtitulo: "Platzi",
+      diploma: "https://i.ibb.co/dbctn7m/sv-blockchain-platzi.jpg",
+      link:
+        "https://platzi.com/@Sebastian_Villegas_/ruta/39-blockchain-criptomonedas/diploma/detalle/",
+    },
+    {
+      id: 9,
+      titulo: "Fundamentos de la Ingeniería de software",
+      subtitulo: "Platzi",
+      diploma: "https://i.ibb.co/8j7b5Zv/sv-introingenieria-platzi.jpg",
+      link:
+        "https://platzi.com/@Sebastian_Villegas_/curso/1098-ingenieria/diploma/detalle/",
+    },
+    {
+      id: 10,
+      titulo: "Python by HackerRank",
+      subtitulo: "HackerRank",
+      diploma: "https://i.ibb.co/V2NJg5m/sv-python-hackerrank.jpg",
+      link: "https://www.hackerrank.com/certificates/6e67cdd834fc",
+    },
+    {
+      id: 11,
+      titulo: "Curador de datos",
+      subtitulo: "Capacitate para el empleo",
+      diploma: "https://i.ibb.co/WzrWgrF/sv-curadordatos-cpe.jpg",
+      link: "https://capacitateparaelempleo.org/verifica/0c1mfq86v/",
+    },
+    {
+      id: 12,
+      titulo: "Administrador de bases de datos",
+      subtitulo: "Platzi",
+      diploma: "https://i.ibb.co/ByPGgXk/sv-adminbasesdatos-cpe.jpg",
+      link: "https://capacitateparaelempleo.org/verifica/slfk6i60m/",
+    },
+  ];
+
+  const [mas, guardarMas] = useState(1);
+  const [diplomas, guardarDiplomas] = useState(arrdiplomas.slice(0, 4));
 
   const mostrarMas = () => {
     if (mas === 1) {
-      guardarDiplomas([
-        {
-          id: 0,
-          titulo: "Desarrollador Front End",
-          subtitulo: "Capacítate para el empleo",
-          diploma: "https://i.ibb.co/LShtTS1/front-end.png",
-          link:
-            "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=6726",
-        },
-        {
-          id: 1,
-          titulo: "Desarrollo Web Online",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/ZhX30Pk/webdevelopment.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1350-html5-css3/diploma/detalle/",
-        },
-        {
-          id: 2,
-          titulo: "Bootstrap",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/JHdqrmc/bootstrap.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1331-bootstrap/diploma/detalle/",
-        },
-        {
-          id: 3,
-          titulo: "Php course",
-          subtitulo: "Solo Learn",
-          diploma: "https://i.ibb.co/zP3693y/php.jpg",
-          link: "https://www.sololearn.com/Profile/11431813/PHP",
-        },
-        {
-          id: 4,
-          titulo: "Python",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/NyYYc7G/python.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1104-python-2017/diploma/detalle/",
-        },
-        {
-          id: 5,
-          titulo: "Algoritmos con C",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/PYprDsx/algoritmos-C.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1189-algoritmos-2017/diploma/detalle/",
-        },
-        {
-          id: 6,
-          titulo: "Seguridad Informática",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/R4bL3Mf/seguridad.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1081-seguridad-informatica-2017/diploma/detalle/",
-        },
-        {
-          id: 7,
-          titulo: "Terminal y linea de comandos",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/TrVfDRF/terminal.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1276-terminal/diploma/detalle/",
-        },
-      ]);
+      guardarDiplomas(arrdiplomas.slice(0, 8));
       guardarMas(2);
     } else if (mas === 2) {
-      guardarDiplomas([
-        {
-          id: 0,
-          titulo: "Desarrollador Front End",
-          subtitulo: "Capacítate para el empleo",
-          diploma: "https://i.ibb.co/LShtTS1/front-end.png",
-          link:
-            "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=6726",
-        },
-        {
-          id: 1,
-          titulo: "Desarrollo Web Online",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/ZhX30Pk/webdevelopment.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1350-html5-css3/diploma/detalle/",
-        },
-        {
-          id: 2,
-          titulo: "Bootstrap",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/JHdqrmc/bootstrap.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1331-bootstrap/diploma/detalle/",
-        },
-        {
-          id: 3,
-          titulo: "Php course",
-          subtitulo: "Solo Learn",
-          diploma: "https://i.ibb.co/zP3693y/php.jpg",
-          link: "https://www.sololearn.com/Profile/11431813/PHP",
-        },
-        {
-          id: 4,
-          titulo: "Python",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/NyYYc7G/python.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1104-python-2017/diploma/detalle/",
-        },
-        {
-          id: 5,
-          titulo: "Algoritmos con C",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/PYprDsx/algoritmos-C.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1189-algoritmos-2017/diploma/detalle/",
-        },
-        {
-          id: 6,
-          titulo: "Seguridad Informática",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/R4bL3Mf/seguridad.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1081-seguridad-informatica-2017/diploma/detalle/",
-        },
-        {
-          id: 7,
-          titulo: "Terminal y linea de comandos",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/TrVfDRF/terminal.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1276-terminal/diploma/detalle/",
-        },
-        {
-          id: 8,
-          titulo: "Ruta de aprendizaje: BlocKChain Y Criptomonedas",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/1LzX4K3/blockchain.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/ruta/39-blockchain-criptomonedas/diploma/detalle/",
-        },
-        {
-          id: 9,
-          titulo: "Fundamentos de la Ingeniería de software",
-          subtitulo: "Platzi",
-          diploma: "https://i.ibb.co/Br4Hj4d/ingenieria.png",
-          link:
-            "https://platzi.com/@Sebastian_Villegas_/curso/1098-ingenieria/diploma/detalle/",
-        },
-      ]);
+      guardarDiplomas(arrdiplomas.slice(0, 10));
       guardarMas(3);
+    } else if (mas === 3) {
+      guardarDiplomas(arrdiplomas.slice(0, 14));
+      guardarMas(4);
     }
   };
 
   const mostrarMenos = () => {
-    guardarDiplomas([
-      {
-        id: 0,
-        titulo: "Desarrollador Front End",
-        subtitulo: "Capacítate para el empleo",
-        diploma: "https://i.ibb.co/LShtTS1/front-end.png",
-        link: "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=6726",
-      },
-      {
-        id: 1,
-        titulo: "Desarrollo Web Online",
-        subtitulo: "Platzi",
-        diploma: "https://i.ibb.co/ZhX30Pk/webdevelopment.png",
-        link:
-          "https://platzi.com/@Sebastian_Villegas_/curso/1350-html5-css3/diploma/detalle/",
-      },
-      {
-        id: 2,
-        titulo: "Bootstrap",
-        subtitulo: "Platzi",
-        diploma: "https://i.ibb.co/JHdqrmc/bootstrap.png",
-        link:
-          "https://platzi.com/@Sebastian_Villegas_/curso/1331-bootstrap/diploma/detalle/",
-      },
-      {
-        id: 3,
-        titulo: "Php course",
-        subtitulo: "Solo Learn",
-        diploma: "https://i.ibb.co/zP3693y/php.jpg",
-        link: "https://www.sololearn.com/Profile/11431813/PHP",
-      },
-    ]);
+    guardarDiplomas(arrdiplomas.slice(0, 4));
     guardarMas(1);
   };
 
@@ -251,7 +150,7 @@ const ListaCertificaciones = () => {
           ))}
         </div>
         <div className="flex flex-wrap m-6">
-          {mas === 3 ? (
+          {mas === 4 ? (
             <button
               onClick={mostrarMenos}
               className="block bg-magnolia zman mx-auto hover:bg-cerise hover:text-white text-blackchocolate font-nunito font-bold py-2 mt-6 px-4 rounded z-50 transition duration-75 ease-in-out"
