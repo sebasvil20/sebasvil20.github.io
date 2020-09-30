@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.c36f894e.chunk.css",
-    "main.js": "/static/js/main.e240024f.chunk.js",
-    "main.js.map": "/static/js/main.e240024f.chunk.js.map",
+    "main.js": "/static/js/main.aab53574.chunk.js",
+    "main.js.map": "/static/js/main.aab53574.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7035a823.js",
     "runtime-main.js.map": "/static/js/runtime-main.7035a823.js.map",
     "static/js/2.cfb6dc4a.chunk.js": "/static/js/2.cfb6dc4a.chunk.js",
     "static/js/2.cfb6dc4a.chunk.js.map": "/static/js/2.cfb6dc4a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.13b8229aa486a53f958397f73ffc3d19.js": "/precache-manifest.13b8229aa486a53f958397f73ffc3d19.js",
+    "precache-manifest.fa065a6f0c4315688267f2a34352a11c.js": "/precache-manifest.fa065a6f0c4315688267f2a34352a11c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.c36f894e.chunk.css.map": "/static/css/main.c36f894e.chunk.css.map",
     "static/js/2.cfb6dc4a.chunk.js.LICENSE.txt": "/static/js/2.cfb6dc4a.chunk.js.LICENSE.txt",
-    "static/media/Foto-personal-Circle.png": "/static/media/Foto-personal-Circle.85afa4fc.png",
     "static/media/css396.ico": "/static/media/css396.6d1d2f5e.ico",
+    "static/media/fpersonal.png": "/static/media/fpersonal.d9aad5ce.png",
     "static/media/github72.ico": "/static/media/github72.b779c272.ico",
     "static/media/html592.ico": "/static/media/html592.414047c1.ico",
     "static/media/js96.ico": "/static/media/js96.ff8cda03.ico",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.7035a823.js",
     "static/js/2.cfb6dc4a.chunk.js",
     "static/css/main.c36f894e.chunk.css",
-    "static/js/main.e240024f.chunk.js"
+    "static/js/main.aab53574.chunk.js"
   ]
 }
