@@ -12,6 +12,10 @@ import cssLogo from "../Images/css396.ico";
 import jsLogo from "../Images/js96.ico";
 
 const Hero = () => {
+  const buscarCertifiaciones = () => {
+    const certificaciones = document.querySelector(".certiSelector");
+    certificaciones.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <section>
       <div className="container mx-auto flex px-5 sm:py-12 items-center justify-center flex-col">
@@ -42,7 +46,10 @@ const Hero = () => {
             <ListaLogos imagen={githubLogo} />
           </div>
           <div className="flex justify-center h-16 z-50 ">
-            <button className="inline-flex text-white border-0 py-2 sm:mb-4 px-6 focus:outline-none cursor-pointer">
+            <button
+              className="inline-flex text-white border-0 py-2 sm:mb-4 px-6 focus:outline-none cursor-pointer"
+              onClick={buscarCertifiaciones}
+            >
               <span id="animacionFlecha">
                 <svg
                   width="30"

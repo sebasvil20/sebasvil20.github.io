@@ -39,7 +39,7 @@ code {
 }
 @media (min-width: 640px) {
   .imagen-tecnologias {
-    width: 64px !important;
+    width: 52px !important;
   }
 }
 @media (max-width: 670px) {

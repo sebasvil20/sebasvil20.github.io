@@ -127,8 +127,8 @@ const ListaCertificaciones = () => {
 
   return (
     <section className="flex-col items-center content-around justify-content-center">
-      <div className="container px-5 py-24 mx-auto z-50">
-        <div className="flex flex-col text-center w-full mb-20">
+      <div className="container px-5 py-24 mx-auto z-50 ">
+        <div className="flex flex-col text-center w-full mb-20 certiSelector">
           <h1 className="sm:text-4xl text-xl  font-quicksand font-semibold text-white mb-4 z-50">
             Certificaciones
           </h1>
