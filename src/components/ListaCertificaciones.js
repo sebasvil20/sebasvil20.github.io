@@ -119,7 +119,7 @@ const ListaCertificaciones = () => {
       guardarDiplomas(arrdiplomas.slice(0, 8));
       guardarMas(2);
     } else if (mas === 2) {
-      guardarDiplomas(arrdiplomas.slice(0, 10));
+      guardarDiplomas(arrdiplomas.slice(0, 12));
       guardarMas(3);
     } else if (mas === 3) {
       guardarDiplomas(arrdiplomas.slice(0, 14));
@@ -128,8 +128,16 @@ const ListaCertificaciones = () => {
   };
 
   const mostrarMenos = () => {
-    guardarDiplomas(arrdiplomas.slice(0, 4));
-    guardarMas(1);
+    buscarCertifiaciones();
+    setTimeout(() => {
+      guardarDiplomas(arrdiplomas.slice(0, 4));
+      guardarMas(1);
+    }, 200);
+  };
+
+  const buscarCertifiaciones = () => {
+    const certificaciones = document.querySelector(".certiSelector");
+    certificaciones.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
