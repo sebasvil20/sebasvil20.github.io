@@ -3,7 +3,7 @@ import ListaLogos from "./ListaLogos";
 import githubLogo from "../Images/github72.ico";
 import fotoPersonal from "../Images/fpersonal.png";
 import reactlogo from "../Images/reactjs.png";
-import nodejsLogo from "../Images/nodejs.png";
+import nodejsLogo from "../Images/NodeJs.png";
 import pythonLogo from "../Images/python.png";
 import htmlLogo from "../Images/html592.ico";
 import mysqlLogo from "../Images/mysql.png";

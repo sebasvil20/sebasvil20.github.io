@@ -5,13 +5,20 @@ const ListaCertificaciones = () => {
   const arrdiplomas = [
     {
       id: 0,
+      titulo: "Desarrollo Web I (40h)",
+      subtitulo: "Google Actívate",
+      diploma: "https://i.ibb.co/bmzBk24/Desarrollo-web-I.jpg",
+      link: "https://docdro.id/stoQEXP",
+    },
+    {
+      id: 1,
       titulo: "Desarrollador Front End",
       subtitulo: "Capacítate para el empleo",
       diploma: "https://i.ibb.co/LZqGYTD/sv-desarrolladorfrontend-cpe.jpg",
       link: "https://capacitateparaelempleo.org/verifica/4mv7o0tbb/",
     },
     {
-      id: 1,
+      id: 2,
       titulo: "Desarrollo Web Online",
       subtitulo: "Platzi",
       diploma: "https://i.ibb.co/854ztyh/sv-desarrolloweb-platzi.jpg",
@@ -19,7 +26,7 @@ const ListaCertificaciones = () => {
         "https://platzi.com/@Sebastian_Villegas_/curso/1350-html5-css3/diploma/detalle/",
     },
     {
-      id: 2,
+      id: 3,
       titulo: "Bootstrap",
       subtitulo: "Platzi",
       diploma: "https://i.ibb.co/k32qn8C/sv-bootstrap-platzi.jpg",
@@ -27,14 +34,14 @@ const ListaCertificaciones = () => {
         "https://platzi.com/@Sebastian_Villegas_/curso/1331-bootstrap/diploma/detalle/",
     },
     {
-      id: 3,
+      id: 4,
       titulo: "Php course",
       subtitulo: "Solo Learn",
       diploma: "https://i.ibb.co/j45JWWk/sv-php-sololearn.jpg",
       link: "https://www.sololearn.com/Profile/11431813/PHP",
     },
     {
-      id: 4,
+      id: 5,
       titulo: "Python",
       subtitulo: "Platzi",
       diploma: "https://i.ibb.co/StRrxBy/sv-python-platzi.jpg",
@@ -42,7 +49,7 @@ const ListaCertificaciones = () => {
         "https://platzi.com/@Sebastian_Villegas_/curso/1104-python-2017/diploma/detalle/",
     },
     {
-      id: 5,
+      id: 6,
       titulo: "Algoritmos con C",
       subtitulo: "Platzi",
       diploma: "https://i.ibb.co/QjTF1PF/sv-algoritmosc-platzi.jpg",
@@ -50,7 +57,7 @@ const ListaCertificaciones = () => {
         "https://platzi.com/@Sebastian_Villegas_/curso/1189-algoritmos-2017/diploma/detalle/",
     },
     {
-      id: 6,
+      id: 7,
       titulo: "Seguridad Informática",
       subtitulo: "Platzi",
       diploma: "https://i.ibb.co/TvtDWxW/sv-seguridad-platzi.jpg",
@@ -58,7 +65,7 @@ const ListaCertificaciones = () => {
         "https://platzi.com/@Sebastian_Villegas_/curso/1081-seguridad-informatica-2017/diploma/detalle/",
     },
     {
-      id: 7,
+      id: 8,
       titulo: "Terminal y linea de comandos",
       subtitulo: "Platzi",
       diploma: "https://i.ibb.co/ss2GKzP/sv-terminal-platzi.jpg",
@@ -66,7 +73,7 @@ const ListaCertificaciones = () => {
         "https://platzi.com/@Sebastian_Villegas_/curso/1276-terminal/diploma/detalle/",
     },
     {
-      id: 8,
+      id: 9,
       titulo: "Ruta de aprendizaje: BlocKChain Y Criptomonedas",
       subtitulo: "Platzi",
       diploma: "https://i.ibb.co/dbctn7m/sv-blockchain-platzi.jpg",
@@ -74,7 +81,7 @@ const ListaCertificaciones = () => {
         "https://platzi.com/@Sebastian_Villegas_/ruta/39-blockchain-criptomonedas/diploma/detalle/",
     },
     {
-      id: 9,
+      id: 10,
       titulo: "Fundamentos de la Ingeniería de software",
       subtitulo: "Platzi",
       diploma: "https://i.ibb.co/8j7b5Zv/sv-introingenieria-platzi.jpg",
@@ -82,21 +89,21 @@ const ListaCertificaciones = () => {
         "https://platzi.com/@Sebastian_Villegas_/curso/1098-ingenieria/diploma/detalle/",
     },
     {
-      id: 10,
+      id: 11,
       titulo: "Python by HackerRank",
       subtitulo: "HackerRank",
       diploma: "https://i.ibb.co/V2NJg5m/sv-python-hackerrank.jpg",
       link: "https://www.hackerrank.com/certificates/6e67cdd834fc",
     },
     {
-      id: 11,
+      id: 12,
       titulo: "Curador de datos",
       subtitulo: "Capacitate para el empleo",
       diploma: "https://i.ibb.co/WzrWgrF/sv-curadordatos-cpe.jpg",
       link: "https://capacitateparaelempleo.org/verifica/0c1mfq86v/",
     },
     {
-      id: 12,
+      id: 13,
       titulo: "Administrador de bases de datos",
       subtitulo: "Platzi",
       diploma: "https://i.ibb.co/ByPGgXk/sv-adminbasesdatos-cpe.jpg",
