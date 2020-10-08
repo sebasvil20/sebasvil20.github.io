@@ -1,10 +1,5 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -58,4 +53,63 @@ code {
 
 .zman {
   z-index: 99 !important;
+}
+
+/* Imagen principal del hero */
+
+.artist-card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1rem auto;
+  max-width: 40rem;
+  margin: auto;
+  position: relative;
+}
+
+.artist-card__img {
+  max-width: 100%;
+  display: block;
+  grid-column: 1 / -1;
+  grid-row: 1 / 3;
+  align-self: center;
+}
+
+@supports (clip-path: circle(25%)) {
+  .artist-card {
+    clip-path: circle(0%);
+    animation: circle-grow 2000ms 450ms forwards;
+  }
+  .artist-card:hover .artist-card__img {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
+  }
+
+  .artist-card__img {
+    clip-path: polygon(
+      18.11% 16.5%,
+      50% 0%,
+      75% 50%,
+      54.09% 90.44%,
+      13.7% 63.94%
+    );
+    transition: clip-path 400ms ease-in-out;
+  }
+}
+@keyframes circle-grow {
+  to {
+    clip-path: circle(100%);
+  }
+}
+@keyframes heading-in {
+  to {
+    clip-path: inset(0% 0%);
+  }
+}
+@supports (mix-blend-mode: darken) {
+  .artist-card:hover::after {
+    clip-path: circle(100%);
+  }
+
+  .artist-card__img {
+    mix-blend-mode: multiply;
+  }
 }

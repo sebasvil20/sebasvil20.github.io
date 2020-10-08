@@ -1,7 +1,6 @@
 import React from "react";
 import ListaLogos from "./ListaLogos";
 import githubLogo from "../Images/github72.ico";
-import fotoPersonal from "../Images/fpersonal.png";
 import reactlogo from "../Images/reactjs.png";
 import nodejsLogo from "../Images/NodeJs.png";
 import pythonLogo from "../Images/python.png";
@@ -19,11 +18,13 @@ const Hero = () => {
   return (
     <section>
       <div className="container mx-auto flex px-5 sm:py-12 items-center justify-center flex-col">
-        <img
-          className="lg:w-2/6 md:w-3/6 sm:w-3/6 w-4/6 object-cover object-center mb-2 sm:mb-8 z-50"
-          alt="hero"
-          src={fotoPersonal}
-        />
+        <div className="artist-card lg:w-2/6 md:w-3/6 sm:w-3/6 w-4/6 object-cover object-center mb-2 sm:mb-8 z-50">
+          <img
+            className="artist-card__img"
+            src="https://i.ibb.co/NCsQBJQ/f3.jpg"
+            alt="St. Vincent"
+          />
+        </div>
         <div className="text-center lg:w-2/3 w-full">
           <h1 className="sm:text-4xl text-3xl font-quicksand font-semibold text-white mb-2 z-50">
             Sebastián Villegas
