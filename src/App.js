@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ListaCertificaciones from "./components/ListaCertificaciones";
 import ListaProyectos from "./components/ListaProyectos";
+import GithubCard from "./components/GithubCard";
 import Footer from "./components/Footer";
 import Particles from "react-particles-js";
 
@@ -69,6 +70,7 @@ function App() {
         <Hero />
         <ListaCertificaciones />
         <ListaProyectos />
+        <GithubCard />
         <Footer />
       </div>
     </section>

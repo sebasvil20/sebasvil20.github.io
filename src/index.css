@@ -113,3 +113,12 @@ code {
     mix-blend-mode: multiply;
   }
 }
+
+.gh {
+  min-height: 70vh !important;
+}
+
+.imagencard {
+  max-height: 350px !important;
+  overflow: hidden;
+}
