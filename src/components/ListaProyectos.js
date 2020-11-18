@@ -46,6 +46,14 @@ const ListaProyectos = () => {
       link: "https://github.com/sebasvil20/cotizador-criptomonedas",
     },
   ];
+  const arrProyectos3 = [
+    {
+      nombre: "K/DA Music player",
+      descripcion: "A K/DA music player, that's all, I LOVE K/DA!",
+      link: "https://github.com/sebasvil20/kda-music-player",
+      imagen: "https://i.ibb.co/DMg0L05/kda-music-player-UI.png",
+    },
+  ];
   return (
     <section className="text-center py-6 -mt-12">
       {/* Inicio primera lista de proyectos */}
@@ -85,6 +93,20 @@ const ListaProyectos = () => {
             />
           ))}
           {/* Fin segunda lista de proyectos */}
+        </div>
+      </div>
+
+      <div className="container px-5 py-12 mx-auto">
+        <div className="flex flex-wrap -m-4">
+          {arrProyectos3.map((proyecto) => (
+            <CardOne
+              key={proyecto.nombre}
+              titulo={proyecto.nombre}
+              descripcion={proyecto.descripcion}
+              imagen={proyecto.imagen}
+              link={proyecto.link}
+            />
+          ))}
         </div>
       </div>
     </section>
