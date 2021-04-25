@@ -5,25 +5,25 @@ import CardTwo from "./projects-cards/CardTwo";
 const ListaProyectos = () => {
   const arrProyectos = [
     {
-      nombre: "MERNTasks app",
+      nombre: "Hinvlogging",
       descripcion:
-        "App de seguimiento de proyectos y tareas hecha con el stack MERN. Con posibilidad de login y registro, se manejan sesiones y contextos",
-      link: "https://github.com/sebasvil20/MERN-tasks-client-side",
-      imagen: "https://i.ibb.co/1MnVLFf/image-6.jpg",
+        "Mi blog personal, donde hablo sobre temas de programación, tutoriales, explicaciones, lifestyle o simplemente historias, me encanta escribir y enseñar",
+      link: "https://github.com/sebasvil20/hinvlogging",
+      imagen: "https://i.ibb.co/Ld6XLmm/hinvlogging.png",
     },
     {
-      nombre: "Drink Recipes",
+      nombre: "GitHub Jobs",
       descripcion:
-        "¿Quieres hacer un coctel de alguna bebida en especifico? Puedes buscar cócteles por categorías y se te mostrara los ingredientes y las instrucciones de preparación",
-      link: "https://github.com/sebasvil20/react-drink-recipes",
-      imagen: "https://i.ibb.co/s9wr43q/image-7.jpg",
+        "¿Te parece que GitHub Jobs debería tener una mejor interfaz de usuario? A mi también. Por eso desarrollé esta página, utilizando la API de GitHub Jobs",
+      link: "https://github.com/sebasvil20/github-Jobs-React",
+      imagen: "https://i.ibb.co/47zRSMD/githubjobs.png",
     },
     {
-      nombre: "Song lyrics And Artist Info",
+      nombre: "Petgram - Instagram para mascotas",
       descripcion:
-        "Consumiendo dos APIs al tiempo, la app es capaz de mostrarte la letra de la canción que busques, y te agrega información del artista como la foto y biografía",
+        "¿Quieres ver fotos de tus mascotas favoritas? ¡Prueba Petgram ahora! Guarda tus favoritos o simplemente explora por categorías",
       link: "https://github.com/sebasvil20/React-lyrics-Artist-Info",
-      imagen: "https://i.ibb.co/NxS9qMY/image-8.jpg",
+      imagen: "https://i.ibb.co/SJ9Sps7/petgram.png",
     },
   ];
   const arrProyectos2 = [
@@ -48,6 +48,27 @@ const ListaProyectos = () => {
   ];
   const arrProyectos3 = [
     {
+      nombre: "MERNTasks app",
+      descripcion:
+        "App de seguimiento de proyectos y tareas hecha con el stack MERN. Con posibilidad de login y registro, se manejan sesiones y contextos",
+      link: "https://github.com/sebasvil20/MERN-tasks-client-side",
+      imagen: "https://i.ibb.co/1MnVLFf/image-6.jpg",
+    },
+    {
+      nombre: "Drink Recipes",
+      descripcion:
+        "¿Quieres hacer un coctel de alguna bebida en especifico? Puedes buscar cócteles por categorías y se te mostrara los ingredientes y las instrucciones de preparación",
+      link: "https://github.com/sebasvil20/react-drink-recipes",
+      imagen: "https://i.ibb.co/s9wr43q/image-7.jpg",
+    },
+    {
+      nombre: "Song lyrics And Artist Info",
+      descripcion:
+        "Consumiendo dos APIs al tiempo, la app es capaz de mostrarte la letra de la canción que busques, y te agrega información del artista como la foto y biografía",
+      link: "https://github.com/sebasvil20/React-lyrics-Artist-Info",
+      imagen: "https://i.ibb.co/NxS9qMY/image-8.jpg",
+    },
+    {
       nombre: "K/DA Music player",
       descripcion: "A K/DA music player, that's all, I LOVE K/DA!",
       link: "https://github.com/sebasvil20/kda-music-player",
@@ -55,7 +76,7 @@ const ListaProyectos = () => {
     },
   ];
   return (
-    <section className="text-center py-6 -mt-12">
+    <section className="text-center py-6 -mt-12" id="proyectos">
       {/* Inicio primera lista de proyectos */}
       <div className="flex flex-col text-center w-full">
         <h1 className="sm:text-4xl text-xl font-quicksand font-semibold text-white mb-4 z-50">

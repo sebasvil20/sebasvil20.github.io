@@ -10,10 +10,10 @@ const Header = () => {
           </span>
         </a>
         <nav className="font-nunito font-light md:ml-auto flex flex-wrap items-center text-base justify-center z-50">
-          <a className="mr-5 hover:text-alabaster" href="!#">
+          <a className="mr-5 hover:text-alabaster" href="#certificaciones">
             Certificaciones
           </a>
-          <a className="mr-5 hover:text-alabaster" href="!#">
+          <a className="mr-5 hover:text-alabaster" href="#proyectos">
             Proyectos
           </a>
           <a className="mr-5 hover:text-alabaster" href="!#">

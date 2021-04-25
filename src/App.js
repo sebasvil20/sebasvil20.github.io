@@ -17,7 +17,7 @@ function App() {
 
     setTimeout(() => {
       guardarCargar(false);
-    }, 2500);
+    }, 500);
   }, []);
 
   return (
