@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import { About } from './components/About'
 import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
@@ -10,9 +10,8 @@ function App() {
 
   window.addEventListener('scroll', () => {
     let y = 1 + (window.scrollY || window.pageYOffset) / 150
-    y = y < 1 ? 1 : y // ensure y is always >= 1 (due to Safari's elastic scroll)
-    console.log(y)
-    saveColor( y > 13 ? "#6B0990": y> 9 ? "#EF3158" : y > 6 ? "#E86618" : "#ff5851")
+    y = y < 1 ? 1 : y
+    saveColor( y > 12 ? "#EF3158": y > 6 ? "#E86618" : "#ff5851")
   })
 
   return (
