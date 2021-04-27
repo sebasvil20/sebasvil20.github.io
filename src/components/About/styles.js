@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 50%;
-  margin: 0 auto 10em;
-  padding: 4em 0;
+  margin: 0 auto 8em;
+  padding: 4em 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,7 +41,7 @@ export const IconsList = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 20px;
 `
 
 export const Icon = styled.img`
