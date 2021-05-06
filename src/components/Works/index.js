@@ -34,14 +34,14 @@ export const Works = () => {
       title: 'MERNTasks app',
       description:
         'Project and task tracking app made with the MERN stack. You can login, registration, create your own projects and more.',
-      link: 'https://ip-tracker-tan.vercel.app/',
+      link: 'https://merntasks-app-client-side.netlify.app/',
       image: 'https://i.ibb.co/1MnVLFf/image-6.jpg',
     },
     {
       title: 'IP Address tracker',
       description:
         "A simple IP address tracker, it will display some data about your IP and the position in the map",
-      link: 'https://jovial-banach-7aec6c.netlify.app/',
+      link: 'https://ip-tracker-tan.vercel.app/',
       image: 'https://i.ibb.co/cYhxwWb/iptracker.png',
     },
     {
