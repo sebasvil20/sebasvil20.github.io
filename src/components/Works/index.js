@@ -51,6 +51,13 @@ export const Works = () => {
       link: 'https://eloquent-mestorf-eb5fce.netlify.app/',
       image: 'https://i.ibb.co/NxS9qMY/image-8.jpg',
     },
+    {
+      title: 'Days',
+      description:
+        'Practice of BarbaJs and GSAP to make page transitions and interactive designs.',
+      link: 'https://sebasvil20.github.io/days-web-practice/',
+      image: 'https://i.ibb.co/9rcr9TB/days.png',
+    },
   ]
 
   return (
