@@ -10,7 +10,7 @@ export const About = () => {
         beatiful websites and powerful APIs
       </MainText>
       <CVButton
-        href='https://drive.google.com/file/d/1NVzVzbwLUnQntOBRZpFdxDzkjkvS2b8J/view?usp=sharing'
+        href='https://drive.google.com/file/d/1kGH1FMWIbxuZvguAcRZbLXs9guLgFgvC/view?usp=sharing'
         target='_blank'
         rel='noopener noreferer'
       >
