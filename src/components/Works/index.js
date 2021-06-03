@@ -31,6 +31,12 @@ export const Works = () => {
       image: 'https://i.ibb.co/DMg0L05/kda-music-player-UI.png',
     },
     {
+      title: 'Angel\' Store',
+      description: "An ecommerce for lingerie",
+      link: 'https://creacionyconfeccionangels.com/',
+      image: 'https://i.ibb.co/7v3kMxx/creacionyconfeccionangels.png',
+    },
+    {
       title: 'MERNTasks app',
       description:
         'Project and task tracking app made with the MERN stack. You can login, registration, create your own projects and more.',
