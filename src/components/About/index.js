@@ -26,6 +26,7 @@ export const About = () => {
         <Icon src='https://i.ibb.co/fSpG7KL/my-Sql-Icon.png' alt='sql icon' />
         <Icon src='https://i.ibb.co/VCDSptG/gitIcon.png' alt='git icon' />
         <Icon src='https://i.ibb.co/M71JL1h/python.png' alt='python icon' />
+        <Icon src='https://i.ibb.co/t4jP6fV/wordpress.png' alt='react icon' />
       </IconsList>
     </Container>
   )

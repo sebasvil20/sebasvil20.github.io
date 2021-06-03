@@ -42,6 +42,7 @@ export const IconsList = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 20px;
+  max-width: 610px;
 `
 
 export const Icon = styled.img`
